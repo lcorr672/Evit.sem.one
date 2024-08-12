@@ -1,0 +1,10 @@
+# Prompt the user for input and generate the list of integers
+my_list = [int(n) for n in input("Input a list of numbers separated by spaces: ").split()]
+
+# Count the number of zeros in the list
+zero_count = my_list.count(0)
+
+# Print the number of zeros
+print(f"umber of zeros in the list: {zero_count}")
+
+#STUDY THIS TOOK WAAAAAY TO LONG TO DO  
